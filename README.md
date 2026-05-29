@@ -8,6 +8,17 @@ JAV 番号查询、解密与 BT 下载工具 — Claude Code Skill。
 - **查询模式** — 搜索番号对应的片名、女优、封面信息
 - **下载模式** — 自动搜索 → 筛选 → BT 下载 → 清理
 
+## 安装
+
+```bash
+cd ~/.claude/skills
+git clone https://github.com/ssbcf/jav-dl.git
+```
+
+然后在 Claude Code 中执行 `/load-skill jav-dl`。
+
+---
+
 ## 快速开始
 
 ### 1. 安装依赖
@@ -27,11 +38,7 @@ export JAV_DL_DIR="/path/to/your/downloads"
 
 ### 3. 在 Claude Code 中使用
 
-```text
-/load-skill jav-dl
-```
-
-然后：
+加载 skill 后：
 
 | 你说                     | 效果                   |
 |--------------------------|------------------------|
