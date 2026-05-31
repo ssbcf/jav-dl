@@ -1,0 +1,11 @@
+# Downloads (created at runtime)
+downloads/
+$HOME/Downloads/av/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
